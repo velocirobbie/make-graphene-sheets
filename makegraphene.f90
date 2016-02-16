@@ -1,5 +1,6 @@
 !Robert Sinclair 23.09.2015
 !Build a lammps posiitional file for a graphene sheet
+!I know this is rubbish code
 program makegraphene
 implicit none
 
@@ -142,8 +143,8 @@ do i=1,order
     n_bond=n_bond+i*6+(i-1)*12
 end do
 
-do i=1,n_C
-    do j=1,n_total
+!do i=1,n_C
+!    do j=1,n_total
 
 
 
